@@ -64,8 +64,8 @@ export const Experience = () => {
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+          <p className={styles.sectionSubText}>AWhy Advertise With Us?</p>
+          <h2 className={styles.sectionHeadText}>Affordable Solutions</h2>
         </motion.div>
 
         {/* Experience Card */}
