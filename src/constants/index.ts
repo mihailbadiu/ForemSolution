@@ -138,7 +138,7 @@ export const EXPERIENCES = [
   {
     title: "Smarter Advertising for the Digital Age",
     company_name: "",
-    icon: starbucks,
+    icon: meta,
     iconBg: "#383E56",
     date: "",
     points: [
@@ -149,7 +149,7 @@ export const EXPERIENCES = [
   {
     title: "Introduction",
     company_name: "",
-    icon: tesla,
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "",
     points: [
@@ -162,7 +162,7 @@ export const EXPERIENCES = [
   {
     title: "Target Audience",
     company_name: "",
-    icon: shopify,
+    icon: meta,
     iconBg: "#383E56",
     date: "",
     points: [
