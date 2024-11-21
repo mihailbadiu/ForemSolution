@@ -147,16 +147,16 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Introduction",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "AI-Driven Targeting: Identify and reach your ideal audience effortlessly .",
+      "Real-Time Analytics: Monitor campaign performance and make instant adjustments. ",
+      "Omni-Channel Integration: Seamlessly manage campaigns across social media, search engines, and streaming platforms.",
+      "Cost Optimization: Reduce ad spend while maximizing results through AI-optimized bidding strategies.",
     ],
   },
   {
