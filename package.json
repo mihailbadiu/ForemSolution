@@ -3,9 +3,11 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Foremsolution",
+    "name": "Sanidhya Kumar Verma",
+    "email": "sanidhya.verma12345@gmail.com",
+    "url": "https://github.com/sanidhyy"
   },
-  "description": "3D Portfolio Advertising",
+  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
     "reactjs",
     "react",
