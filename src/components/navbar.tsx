@@ -10,24 +10,18 @@ type NavbarProps = {
   hide: boolean;
 };
 
-// Navbar
 export const Navbar = ({ hide }: NavbarProps) => {
-  // state variables
+  // State variables
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [isAtBottom, setIsAtBottom] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsAtBottom(true);
-      } else {
-        setIsAtBottom(false);
-      }
+      setIsScrolled(window.scrollY > 10);
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -35,8 +29,8 @@ export const Navbar = ({ hide }: NavbarProps) => {
     <nav
       className={cn(
         styles.paddingX,
-        "w-full flex items-center py-5 fixed top-0 z-20 bg-primary",
-        isAtBottom || hide ? "mt-0" : "mt-20"
+        "w-full flex items-center py-5 fixed top-0 z-20 bg-primary transition-all duration-300",
+        isScrolled || hide ? "mt-0" : "mt-20"
       )}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -55,7 +49,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
           </p>
         </Link>
 
-        {/* Nav Links (Desktop) */}
+        {/* Desktop Navigation Links */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {NAV_LINKS.map((link) => (
             <li
@@ -64,7 +58,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
                 active === link.title ? "text-white" : "text-secondary",
                 "hover:text-white text-[18px] font-medium cursor-pointer"
               )}
-              onClick={() => !link.link && setActive(link.title)}
+              onClick={() => setActive(link.title)}
             >
               {link.link ? (
                 <a href={link.link} target="_blank" rel="noreferrer noopener">
@@ -77,7 +71,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
           ))}
         </ul>
 
-        {/* Hamburger Menu (Mobile) */}
+        {/* Mobile Hamburger Menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -86,41 +80,37 @@ export const Navbar = ({ hide }: NavbarProps) => {
             onClick={() => setToggle(!toggle)}
           />
 
-          <div
-            className={cn(
-              !toggle ? "hidden" : "flex",
-              "p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl"
-            )}
-          >
-            {/* Nav Links (Mobile) */}
-            <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {NAV_LINKS.map((link) => (
-                <li
-                  key={link.id}
-                  className={cn(
-                    active === link.title ? "text-white" : "text-secondary",
-                    "font-poppins font-medium cursor-pointer text-[16px]"
-                  )}
-                  onClick={() => {
-                    !link.link && setToggle(!toggle);
-                    !link.link && setActive(link.title);
-                  }}
-                >
-                  {link.link ? (
-                    <a
-                      href={link.link}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      {link.title}
-                    </a>
-                  ) : (
-                    <a href={`#${link.id}`}>{link.title}</a>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {toggle && (
+            <div className="p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl">
+              <ul className="list-none flex flex-col gap-4">
+                {NAV_LINKS.map((link) => (
+                  <li
+                    key={link.id}
+                    className={cn(
+                      active === link.title ? "text-white" : "text-secondary",
+                      "font-poppins font-medium cursor-pointer text-[16px]"
+                    )}
+                    onClick={() => {
+                      setToggle(false);
+                      setActive(link.title);
+                    }}
+                  >
+                    {link.link ? (
+                      <a
+                        href={link.link}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        {link.title}
+                      </a>
+                    ) : (
+                      <a href={`#${link.id}`}>{link.title}</a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </nav>
