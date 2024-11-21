@@ -151,7 +151,7 @@ export const EXPERIENCES = [
     company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
       "AI-Driven Targeting: Identify and reach your ideal audience effortlessly .",
       "Real-Time Analytics: Monitor campaign performance and make instant adjustments. ",
@@ -160,29 +160,31 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Target Audience",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "AdVance is built for:",
+      "Small and Medium Businesses: Affordable, effective solutions for budget-conscious marketers",
+      "Advertising Agencies: Scalable tools to manage multiple client campaigns efficiently.",
+      "E-commerce Brands: Boost conversions with hyper-targeted ads that reach ready-to-buy customers.",
+      "Our platform adapts to the needs of any business size or industry.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Marketing and Growth Strategy",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Digital Campaigns: Launching a mix of PPC, social media, and influencer-driven content to build awareness.",
+      "Partnerships: Collaborating with industry leaders like Google Ads and Facebook Ads Manager for integrations.",
+      "Referral Program: Incentivizing existing users to invite new businesses with discounts and credits.",
+      "Webinars and Demos: Hosting live sessions to educate potential users about the platform’s capabilities.",
+      "Our strategy focuses on both organic growth and targeted outreach to maximize adoption.",
     ],
   },
 ] as const;
@@ -191,7 +193,7 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Working with ForemSolution has been a game-changer for our business. Their targeted campaigns helped us reach more local customers than ever before, increasing our foot traffic by 40% in just two months. They truly understood our goals and delivered beyond our expectations. Highly recommend!",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -199,7 +201,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "As a growing online store, we struggled to find an advertising partner who could deliver measurable results. [ForemSolution didn’t just meet our expectations—they exceeded them. Their data-driven approach boosted our sales by 70%, and their team made the entire process seamless. We finally feel like our ad spend is paying off!",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -207,7 +209,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "We needed a creative and cost-effective way to break into a competitive market. ForemSolution  crafted a campaign that perfectly captured our brand’s message and reached the right audience. Thanks to their expertise, our app downloads tripled within the first month! They’re an invaluable partner for any startup."
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
