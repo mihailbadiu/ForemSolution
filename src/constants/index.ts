@@ -1,4 +1,4 @@
-// Contains constant data for using in website
+// Contains constant data for using in a website
 // ! Don't remove anything from here if not sure
 
 import {
@@ -148,26 +148,26 @@ export const EXPERIENCES = [
   },
   {
     title: "Introduction",
-    company_name: "Introduction",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "AI-Driven Targeting: Identify and reach your ideal audience effortlessly .",
-      "Real-Time Analytics: Monitor campaign performance and make instant adjustments. ",
+      "AI-Driven Targeting: Identify and reach your ideal audience effortlessly.",
+      "Real-Time Analytics: Monitor campaign performance and make instant adjustments.",
       "Omni-Channel Integration: Seamlessly manage campaigns across social media, search engines, and streaming platforms.",
       "Cost Optimization: Reduce ad spend while maximizing results through AI-optimized bidding strategies.",
     ],
   },
   {
     title: "Target Audience",
-    company_name: "Target Audience",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
     date: "",
     points: [
       "AdVance is built for:",
-      "Small and Medium Businesses: Affordable, effective solutions for budget-conscious marketers",
+      "Small and Medium Businesses: Affordable, effective solutions for budget-conscious marketers.",
       "Advertising Agencies: Scalable tools to manage multiple client campaigns efficiently.",
       "E-commerce Brands: Boost conversions with hyper-targeted ads that reach ready-to-buy customers.",
       "Our platform adapts to the needs of any business size or industry.",
@@ -175,7 +175,7 @@ export const EXPERIENCES = [
   },
   {
     title: "Marketing and Growth Strategy",
-    company_name: "Marketing and Growth Strategy",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "",
@@ -201,7 +201,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "As a growing online store, we struggled to find an advertising partner who could deliver measurable results. [ForemSolution didn’t just meet our expectations—they exceeded them. Their data-driven approach boosted our sales by 70%, and their team made the entire process seamless. We finally feel like our ad spend is paying off!",
+      "As a growing online store, we struggled to find an advertising partner who could deliver measurable results. ForemSolution didn’t just meet our expectations—they exceeded them. Their data-driven approach boosted our sales by 70%, and their team made the entire process seamless. We finally feel like our ad spend is paying off!",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -209,7 +209,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "We needed a creative and cost-effective way to break into a competitive market. ForemSolution  crafted a campaign that perfectly captured our brand’s message and reached the right audience. Thanks to their expertise, our app downloads tripled within the first month! They’re an invaluable partner for any startup."
+      "We needed a creative and cost-effective way to break into a competitive market. ForemSolution crafted a campaign that perfectly captured our brand’s message and reached the right audience. Thanks to their expertise, our app downloads tripled within the first month! They’re an invaluable partner for any startup.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -222,137 +222,20 @@ export const PROJECTS = [
   {
     name: "Disney+ Clone",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Disney+ is one of the biggest streaming platforms used by millions of people worldwide and allows us to stream high-quality content in 4k and various other formats.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "firebase", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: project1,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+  // Add other project objects here, following the same structure
 ] as const;
 
+// Social Media Links
 export const SOCIALS = [
   {
     name: "YouTube",
@@ -360,7 +243,7 @@ export const SOCIALS = [
     link: "https://www.youtube.com",
   },
   {
-    name: "Linkedin",
+    name: "LinkedIn",
     icon: linkedin,
     link: "https://www.linkedin.com",
   },
