@@ -55,29 +55,24 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Marketing and Growth Strategy",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "How It Works",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Target Audience",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Success Stories",
     icon: creator,
   },
 ] as const;
@@ -362,21 +357,16 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://twitter.com",
   },
 ] as const;
