@@ -183,7 +183,7 @@ export const EXPERIENCES = [
       "Digital Campaigns: Launching a mix of PPC, social media, and influencer-driven content to build awareness.",
       "Partnerships: Collaborating with industry leaders like Google Ads and Facebook Ads Manager for integrations.",
       "Referral Program: Incentivizing existing users to invite new businesses with discounts and credits.",
-      "Webinars and Demos: Hosting live sessions to educate potential users about the platform’s capabilities.",
+      "Webinars and Demos: Hosting live sessions to educate potential users about the platforms capabilities.",
       "Our strategy focuses on both organic growth and targeted outreach to maximize adoption.",
     ],
   },
@@ -201,7 +201,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "As a growing online store, we struggled to find an advertising partner who could deliver measurable results. [ForemSolution didn’t just meet our expectations—they exceeded them. Their data-driven approach boosted our sales by 70%, and their team made the entire process seamless. We finally feel like our ad spend is paying off!",
+      "As a growing online store, we struggled to find an advertising partner who could deliver measurable results. [ForemSolution did not just meet our expectations—they exceeded them. Their data-driven approach boosted our sales by 70%, and their team made the entire process seamless. We finally feel like our ad spend is paying off!",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -209,7 +209,7 @@ export const TESTIMONIALS = [
   },
   {
     testimonial:
-      "We needed a creative and cost-effective way to break into a competitive market. ForemSolution  crafted a campaign that perfectly captured our brand’s message and reached the right audience. Thanks to their expertise, our app downloads tripled within the first month! They’re an invaluable partner for any startup."
+      "We needed a creative and cost-effective way to break into a competitive market. ForemSolution  crafted a campaign that perfectly captured our brands message and reached the right audience. Thanks to their expertise, our app downloads tripled within the first month! They are an invaluable partner for any startup."
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
