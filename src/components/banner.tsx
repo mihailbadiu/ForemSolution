@@ -49,7 +49,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             <span className="sr-only">Light bulb</span>
           </span>
           <span>
-            Did you like this idea . Check out my{" "}
+            Did you like this idea . Email my{" "}
             <Link
               to="liviuitman@proton.me"
               target="_blank"

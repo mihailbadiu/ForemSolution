@@ -95,8 +95,8 @@ export const Works = () => {
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>My Work</p>
-          <h2 className={styles.sectionHeadText}>Projects.</h2>
+          <p className={styles.sectionSubText}>Market</p>
+          <h2 className={styles.sectionHeadText}>Opportunity</h2>
         </motion.div>
 
         {/* About */}
@@ -105,11 +105,11 @@ export const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Following projects showcases my skills and experience through
-            real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos in it. It reflects my
-            ability to solve complex problems, work with different technologies,
-            and manage projects effectively.
+             Market Opportunity
+The global digital advertising market is valued at $500 billion and is expected to grow by 15% annually.
+75% of businesses cite poor ad performance and limited transparency as their biggest challenges.
+Advertisers need a smarter solution to improve efficiency and ROI in this rapidly growing market.
+AdVance addresses this gap with precision tools designed for today’s digital demands.
           </motion.p>
         </div>
 
