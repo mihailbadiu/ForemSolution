@@ -51,7 +51,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
           <span>
             Did you like this idea . Contact my{" "}
             <Link
-              to="https://forem-solution.vercel.app/#contact"
+              to="https://www.foremsolution.com/#contact"
               target="_blank"
               rel="noreferrer noopener"
               className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
