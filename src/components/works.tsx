@@ -109,7 +109,7 @@ export const Works = () => {
 The global digital advertising market is valued at $500 billion and is expected to grow by 15% annually.
 75% of businesses cite poor ad performance and limited transparency as their biggest challenges.
 Advertisers need a smarter solution to improve efficiency and ROI in this rapidly growing market.
-AdVance addresses this gap with precision tools designed for today’s digital demands.
+ForemSolution addresses this gap with precision tools designed for today’s digital demands.
           </motion.p>
         </div>
 
