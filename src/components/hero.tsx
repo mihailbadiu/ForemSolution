@@ -26,8 +26,8 @@ export const Hero = () => {
             Advertise <span className="text-[#915eff]">With us</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+          Partner with us and unlock unparalleled opportunities to connect with your target<br className="sm:block hidden" />
+          Audience through precision, innovation, and measurable results.
           </p>
         </div>
       </div>
