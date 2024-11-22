@@ -3,8 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
 <style type="text/css">
-	.st0{font-family:'BrushScriptMT';}
-	.st1{font-size:222.9085px;}
+	.st0{fill:#714099;}
+	.st1{font-family:'BrushScriptMT';}
+	.st2{font-size:222.9085px;}
 </style>
-<text transform="matrix(1.4256 0 0 1 27.2106 174.9179)" class="st0 st1">F</text>
+<text transform="matrix(1.4256 0 0 1 27.2104 174.918)" class="st0 st1 st2">F</text>
 </svg>
