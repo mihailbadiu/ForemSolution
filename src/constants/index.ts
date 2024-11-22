@@ -166,7 +166,7 @@ export const EXPERIENCES = [
     iconBg: "#383E56",
     date: "",
     points: [
-      "AdVance is built for:",
+      "ForemSolution is built for:",
       "Small and Medium Businesses: Affordable, effective solutions for budget-conscious marketers.",
       "Advertising Agencies: Scalable tools to manage multiple client campaigns efficiently.",
       "E-commerce Brands: Boost conversions with hyper-targeted ads that reach ready-to-buy customers.",
